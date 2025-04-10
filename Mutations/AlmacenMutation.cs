@@ -6,5 +6,9 @@ namespace Supermercado.Mutations
     public class AlmacenMutation
     {
         private readonly IDbContextFactory<AppDbContext> _contextFactory;
+        public AlmacenMutation(IDbContextFactory<AppDbContext> contextFactory)
+        {
+            _contextFactory = contextFactory;
+        }
     }
 }

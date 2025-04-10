@@ -24,7 +24,7 @@ namespace Supermercado.Mutations
             Cliente = new ClienteMutation(contextFactory);
             Empleado = new EmpleadoMutation(contextFactory);
             Usuario = new UsuarioMutation(contextFactory);
-            Almacen = new AlmacenMutation(contextFactorycontextF);
+            Almacen = new AlmacenMutation(contextFactory);
             Categoria = new CategoriaMutation(contextFactory);
             Producto = new ProductoMutation(contextFactory);
             Inventario = new InventarioMutation(contextFactory);
