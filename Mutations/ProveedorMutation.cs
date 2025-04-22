@@ -3,11 +3,11 @@ using Supermercado.Models;
 
 namespace Supermercado.Mutations
 {
-    public class ProveedoreMutation
+    public class ProveedorMutation
     {
         private readonly IDbContextFactory<AppDbContext> _contextFactory;
 
-        public ProveedoreMutation(IDbContextFactory<AppDbContext> contextFactory)
+        public ProveedorMutation(IDbContextFactory<AppDbContext> contextFactory)
         {
             _contextFactory = contextFactory;
         }

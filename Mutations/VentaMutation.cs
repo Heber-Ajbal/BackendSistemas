@@ -16,7 +16,7 @@ namespace Supermercado.Mutations
         public async Task<Venta> CrearVenta(Venta input)
         {
             var context = _contextFactory.CreateDbContext();
-            context.Ventas.Add(input);
+            context.Venta.Add(input);
             await context.SaveChangesAsync();
             return input;
         }
@@ -25,7 +25,7 @@ namespace Supermercado.Mutations
         public async Task<Venta?> ActualizarVenta(int id, Venta input)
         {
             var context = _contextFactory.CreateDbContext();
-            var venta = await context.Ventas.FindAsync(id);
+            var venta = await context.Venta.FindAsync(id);
             if (venta == null) return null;
 
             venta.IdCliente = input.IdCliente ?? venta.IdCliente;
@@ -42,10 +42,10 @@ namespace Supermercado.Mutations
         public async Task<bool> EliminarVenta(int id)
         {
             var context = _contextFactory.CreateDbContext();
-            var venta = await context.Ventas.FindAsync(id);
+            var venta = await context.Venta.FindAsync(id);
             if (venta == null) return false;
 
-            context.Ventas.Remove(venta);
+            context.Venta.Remove(venta);
             await context.SaveChangesAsync();
             return true;
         }
