@@ -202,3 +202,7 @@ D:\Heber\Documents\UNIVERSIDAD\SEMESTRE VII\Analisis\Supermercado\obj\Debug\net8
 D:\Heber\Documents\UNIVERSIDAD\SEMESTRE VII\Analisis\Supermercado\obj\Debug\net8.0\Supermercado.pdb
 D:\Heber\Documents\UNIVERSIDAD\SEMESTRE VII\Analisis\Supermercado\obj\Debug\net8.0\Supermercado.genruntimeconfig.cache
 D:\Heber\Documents\UNIVERSIDAD\SEMESTRE VII\Analisis\Supermercado\obj\Debug\net8.0\ref\Supermercado.dll
+D:\Heber\Documents\UNIVERSIDAD\SEMESTRE VII\Analisis\Supermercado\obj\Debug\net8.0\Supermercado.sourcelink.json
+D:\Heber\Documents\UNIVERSIDAD\SEMESTRE VII\Analisis\Supermercado\bin\Debug\net8.0\HotChocolate.AspNetCore.Authorization.dll
+D:\Heber\Documents\UNIVERSIDAD\SEMESTRE VII\Analisis\Supermercado\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Heber\Documents\UNIVERSIDAD\SEMESTRE VII\Analisis\Supermercado\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll

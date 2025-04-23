@@ -17,12 +17,56 @@ namespace Supermercado.Mutations
         }
 
         // Crear un nuevo usuario
-        public async Task<Usuario> CrearUsuario(Usuario input)
+        public async Task<LoginResponse> CrearEmpleadoConUsuario(
+        string nombreEmpleado,
+        string apellidoPaterno,
+        string apellidoMaterno,
+        string turno,
+        string cargo,
+        double sueldo,
+        string nombreUsuario,
+        string contrasena,
+        string rol
+    )
         {
             var context = _contextFactory.CreateDbContext();
-            context.Usuarios.Add(input);
+
+            // 1. Crear el empleado
+            var empleado = new Empleado
+            {
+                Nombre = nombreEmpleado,
+                ApellidoPaterno = apellidoPaterno,
+                ApellidoMaterno = apellidoMaterno,
+                Sueldo = (decimal?)sueldo,
+                Turno = turno,
+                Cargo = cargo
+            };
+
+            context.Empleados.Add(empleado);
             await context.SaveChangesAsync();
-            return input;
+
+            // 2. Calcular hash de la contraseña
+            string hash = CalcularSha256(contrasena);
+
+            // 3. Crear el usuario
+            var usuario = new Usuario
+            {
+                IdEmpleado = empleado.IdEmpleado,
+                NombreUsuario = nombreUsuario,
+                ContrasenaHash = hash,
+                Rol = rol,
+                Activo = true
+            };
+
+            context.Usuarios.Add(usuario);
+            await context.SaveChangesAsync();
+
+            return new LoginResponse
+            {
+                Exito = true,
+                Mensaje = "Usuario creado correctamente",
+                Usuario = usuario,
+            };
         }
 
         // Actualizar un usuario existente
@@ -91,7 +135,7 @@ namespace Supermercado.Mutations
         new Claim(ClaimTypes.Role, usuario.Rol ?? "Empleado")
     };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("CLAVESECRETA_SUPERMERCADO")); // reemplaza por algo más seguro
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("CLAVESECRETA_SUPERMERCADO_2024_+segura")); // reemplaza por algo más seguro
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(

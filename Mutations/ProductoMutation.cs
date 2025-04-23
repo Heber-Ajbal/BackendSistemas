@@ -13,12 +13,21 @@ namespace Supermercado.Mutations
         }
 
         // Crear un nuevo producto
-        public async Task<Producto> CrearProducto(Producto input)
+        public async Task<Producto> CrearProducto(ProductoCInput input)
         {
             var context = _contextFactory.CreateDbContext();
-            context.Productos.Add(input);
+
+            var producto = new Producto
+            {
+                Nombre = input.Nombre,
+                PrecioCompra = input.PrecioCompra,
+                PrecioVenta = input.PrecioVenta,
+                IdCategoria = input.IdCategoria
+            };
+
+            context.Productos.Add(producto);
             await context.SaveChangesAsync();
-            return input;
+            return producto;
         }
 
         // Actualizar un producto existente

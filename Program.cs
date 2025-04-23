@@ -1,5 +1,4 @@
-﻿
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Supermercado.Models;
@@ -29,15 +28,29 @@ builder.Services.AddAuthentication("Bearer")
         };
     });
 
-builder.Services.AddAuthorization(); // habilita uso de [Authorize]
+builder.Services.AddAuthorization();
+
+// ✅ CORS para permitir acceso desde Nuxt frontend
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowNuxt", policy =>
+    {
+        policy
+            .WithOrigins("http://localhost:3000") // ← tu frontend
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials();
+    });
+});
 
 // 🔧 Configura HotChocolate (GraphQL)
 builder.Services
     .AddGraphQLServer()
-    .AddAuthorization() // importante para [Authorize]
+    .AddAuthorization()
     .AddQueryType<Query>()
     .AddMutationType<Mutation>()
     .AddType<LoginResponse>()
+    .AddType<DecimalType>()
     .AddProjections()
     .AddFiltering()
     .AddSorting();
@@ -45,11 +58,10 @@ builder.Services
 var app = builder.Build();
 
 // 🧭 Middleware
-app.UseRouting();
-app.UseAuthentication(); // 👈 esto es necesario
-app.UseAuthorization();  // 👈 y esto también
+app.UseCors("AllowNuxt"); // 👈 esto va ANTES de Auth
+app.UseAuthentication();
+app.UseAuthorization();
 
-// 🔗 Activa GraphQL y Banana Cake Pop en /graphql
-app.MapGraphQL();
+app.MapGraphQL(); // GraphQL endpoint
 
 app.Run();
