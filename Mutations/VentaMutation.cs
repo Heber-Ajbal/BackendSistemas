@@ -13,12 +13,37 @@ namespace Supermercado.Mutations
         }
 
         // Crear una nueva venta
-        public async Task<Venta> CrearVenta(Venta input)
+        public async Task<Venta> CrearVenta(VentaCInput input)
         {
             var context = _contextFactory.CreateDbContext();
-            context.Venta.Add(input);
+
+            var venta = new Venta
+            {
+                IdCliente = input.IdCliente,
+                IdEmpleado = input.IdEmpleado,
+                Fecha = input.Fecha,
+                Hora = input.Hora,
+                Monto = input.Monto,
+            };
+
+            context.Venta.Add(venta);
             await context.SaveChangesAsync();
-            return input;
+
+            foreach (var detalle in input.Detalles)
+            {
+                var d = new DetalleVenta
+                {
+                    IdVenta = venta.IdVenta,
+                    CodProducto = detalle.CodProducto,
+                    Cantidad = detalle.Cantidad,
+                    Descuento = detalle.Descuento
+                };
+
+                context.DetalleVenta.Add(d);
+            }
+
+            await context.SaveChangesAsync();
+            return venta;
         }
 
         // Actualizar una venta existente
