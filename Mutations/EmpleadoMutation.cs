@@ -13,13 +13,26 @@ namespace Supermercado.Mutations
         }
 
         // Crear un nuevo empleado
-        public async Task<Empleado> CrearEmpleado(Empleado input)
+        public async Task<Empleado> CrearEmpleado(EmpleadoCInput input)
         {
             var context = _contextFactory.CreateDbContext();
-            context.Empleados.Add(input);  
+
+            var nuevoEmpleado = new Empleado
+            {
+                Nombre = input.Nombre,
+                ApellidoPaterno = input.ApellidoPaterno,
+                ApellidoMaterno = input.ApellidoMaterno,
+                Sueldo = input.Sueldo,
+                Turno = input.Turno,
+                Cargo = input.Cargo
+            };
+
+            context.Empleados.Add(nuevoEmpleado);
             await context.SaveChangesAsync();
-            return input;
+
+            return nuevoEmpleado;
         }
+
 
         // Actualizar un empleado existente
         public async Task<Empleado?> ActualizarEmpleado(int id, Empleado input)

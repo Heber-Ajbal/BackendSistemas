@@ -15,10 +15,21 @@ namespace Supermercado.Mutations
         public async Task<Compra> CrearCompra(Compra input)
         {
             var context = _contextFactory.CreateDbContext();
+
+            // Evita posibles conflictos al insertar
+            input.IdCompra = 0;
+
+            // Asegura que cada detalle tenga id = 0 y se relacione con la compra
+            foreach (var detalle in input.DetalleCompras)
+            {
+                detalle.IdDetalleCompra = 0;
+            }
+
             context.Compras.Add(input);
             await context.SaveChangesAsync();
             return input;
         }
+
 
         public async Task<Compra?> ActualizarCompra(int id, Compra input)
         {
