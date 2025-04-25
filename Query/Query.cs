@@ -45,7 +45,7 @@ namespace Supermercado.Query
         public async Task<List<Producto>> GetProductos()
         {
             var context = _contextFactory.CreateDbContext();
-            return await context.Productos.ToListAsync();
+            return await context.Productos.Include(c => c.IdCategoriaNavigation).ToListAsync();
         }
 
         public async Task<List<Inventario>> GetInventarios()
