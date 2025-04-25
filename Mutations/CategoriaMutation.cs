@@ -12,12 +12,18 @@ namespace Supermercado.Mutations
             _contextFactory = contextFactory;
         }
 
-        public async Task<Categoria> CrearCategoria(Categoria input)
+        public async Task<Categoria> CrearCategoria(categoriaCInput input)
         {
             var context = _contextFactory.CreateDbContext();
-            context.Categoria.Add(input); 
+
+            var categoria = new Categoria
+            {
+                Nombre = input.Nombre,
+                Descripcion = input.Descripcion,
+            };
+            context.Categoria.Add(categoria); 
             await context.SaveChangesAsync();
-            return input;
+            return categoria;
         }
 
         public async Task<Categoria?> ActualizarCategoria(int id, Categoria input)

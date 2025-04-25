@@ -17,18 +17,27 @@ namespace Supermercado.Mutations
         {
             var context = _contextFactory.CreateDbContext();
 
+            byte[]? imagenBytes = null;
+
+            if (!string.IsNullOrEmpty(input.Imagen))
+            {
+                imagenBytes = Convert.FromBase64String(input.Imagen);
+            }
+
             var producto = new Producto
             {
                 Nombre = input.Nombre,
                 PrecioCompra = input.PrecioCompra,
                 PrecioVenta = input.PrecioVenta,
-                IdCategoria = input.IdCategoria
+                IdCategoria = input.IdCategoria,
+                Imagen = imagenBytes
             };
 
             context.Productos.Add(producto);
             await context.SaveChangesAsync();
             return producto;
         }
+
 
         // Actualizar un producto existente
         public async Task<Producto?> ActualizarProducto(int id, Producto input)

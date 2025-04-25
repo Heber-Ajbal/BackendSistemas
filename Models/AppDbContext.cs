@@ -256,7 +256,8 @@ public partial class AppDbContext : DbContext
             entity.Property(e => e.PrecioVenta)
                 .HasColumnType("decimal(10, 2)")
                 .HasColumnName("Precio_venta");
-
+            entity.Property(e => e.Imagen) // 👈 NUEVO
+        .HasColumnName("Imagen");
             entity.HasOne(d => d.IdCategoriaNavigation).WithMany(p => p.Productos)
                 .HasForeignKey(d => d.IdCategoria)
                 .HasConstraintName("FK__PRODUCTO__idCate__1ED998B2");
