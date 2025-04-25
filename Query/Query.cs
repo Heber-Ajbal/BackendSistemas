@@ -27,7 +27,7 @@ namespace Supermercado.Query
         public async Task<List<Usuario>> GetUsuarios()
         {
             var context = _contextFactory.CreateDbContext();
-            return await context.Usuarios.ToListAsync();
+            return await context.Usuarios.Include(e => e.IdEmpleadoNavigation).ToListAsync();
         }
 
         public async Task<List<Almacen>> GetAlmacenes()
