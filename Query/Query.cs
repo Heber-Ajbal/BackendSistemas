@@ -5,26 +5,99 @@ namespace Supermercado.Query
 {
     public class Query
     {
-        private readonly AppDbContext _context;
+        private readonly IDbContextFactory<AppDbContext> _contextFactory;
 
         public Query(IDbContextFactory<AppDbContext> contextFactory)
         {
-           
-            _context = contextFactory.CreateDbContext();
+            _contextFactory = contextFactory;
         }
 
-        public IQueryable<Cliente> GetClientes() => _context.Clientes;
-        public IQueryable<Empleado> GetEmpleados() => _context.Empleados;
-        public IQueryable<Usuario> GetUsuarios() => _context.Usuarios;
-        public IQueryable<Almacen> GetAlmacenes() => _context.Almacens;
-        public IQueryable<Categoria> GetCategorias() => _context.Categoria;
-        public IQueryable<Producto> GetProductos() => _context.Productos;
-        public IQueryable<Inventario> GetInventarios() => _context.Inventarios;
-        public IQueryable<Proveedore> GetProveedores() => _context.Proveedores;
-        public IQueryable<Compra> GetCompras() => _context.Compras;
-        public IQueryable<DetalleCompra> GetDetallesCompra() => _context.DetalleCompras;
-        public IQueryable<Venta> GetVentas() => _context.Venta;
-        public IQueryable<DetalleVenta> GetDetallesVenta() => _context.DetalleVenta;
-        public IQueryable<MovimientosAlmacen> GetMovimientosAlmacen() => _context.MovimientosAlmacens;
+        public async Task<List<Cliente>> GetClientes()
+        {
+            var context = _contextFactory.CreateDbContext();
+            return await context.Clientes.ToListAsync();
+        }
+
+        public async Task<List<Empleado>> GetEmpleados()
+        {
+            var context = _contextFactory.CreateDbContext();
+            return await context.Empleados.ToListAsync();
+        }
+
+        public async Task<List<Usuario>> GetUsuarios()
+        {
+            var context = _contextFactory.CreateDbContext();
+            return await context.Usuarios.ToListAsync();
+        }
+
+        public async Task<List<Almacen>> GetAlmacenes()
+        {
+            var context = _contextFactory.CreateDbContext();
+            return await context.Almacens.ToListAsync();
+        }
+
+        public async Task<List<Categoria>> GetCategorias()
+        {
+            var context = _contextFactory.CreateDbContext();
+            return await context.Categoria.ToListAsync();
+        }
+
+        public async Task<List<Producto>> GetProductos()
+        {
+            var context = _contextFactory.CreateDbContext();
+            return await context.Productos.ToListAsync();
+        }
+
+        public async Task<List<Inventario>> GetInventarios()
+        {
+            var context = _contextFactory.CreateDbContext();
+            return await context.Inventarios.ToListAsync();
+        }
+
+        public async Task<List<Proveedore>> GetProveedores()
+        {
+            var context = _contextFactory.CreateDbContext();
+            return await context.Proveedores.ToListAsync();
+        }
+
+        public async Task<List<Compra>> GetCompras()
+        {
+            var context = _contextFactory.CreateDbContext();
+            return await context.Compras
+                .Include(c => c.CodProveedorNavigation)
+                .Include(c => c.IdEmpleadoNavigation)
+                .Include(c => c.DetalleCompras)
+                    .ThenInclude(d => d.CodProductoNavigation)
+                .ToListAsync();
+        }
+
+        public async Task<List<DetalleCompra>> GetDetallesCompra()
+        {
+            var context = _contextFactory.CreateDbContext();
+            return await context.DetalleCompras.ToListAsync();
+        }
+
+        public async Task<List<Venta>> GetVentas()
+        {
+            var context = _contextFactory.CreateDbContext();
+            return await context.Venta
+                .Include(v => v.IdClienteNavigation)
+                .Include(v => v.IdEmpleadoNavigation)
+                .Include(v => v.DetalleVenta)
+                    .ThenInclude(d => d.CodProductoNavigation)
+                .ToListAsync();
+        }
+
+        public async Task<List<DetalleVenta>> GetDetallesVenta()
+        {
+            var context = _contextFactory.CreateDbContext();
+            return await context.DetalleVenta.ToListAsync();
+        }
+
+        public async Task<List<MovimientosAlmacen>> GetMovimientosAlmacen()
+        {
+            var context = _contextFactory.CreateDbContext();
+            return await context.MovimientosAlmacens.ToListAsync();
+        }
     }
 }
