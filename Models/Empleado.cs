@@ -19,11 +19,12 @@ public partial class Empleado
 
     public string? Cargo { get; set; }
 
+    [GraphQLIgnore]
     public virtual ICollection<Compra> Compras { get; set; } = new List<Compra>();
-
+    [GraphQLIgnore]
     public virtual ICollection<MovimientosAlmacen> MovimientosAlmacens { get; set; } = new List<MovimientosAlmacen>();
 
     public virtual Usuario? Usuario { get; set; }
-
+    [GraphQLIgnore]
     public virtual ICollection<Venta> Venta { get; set; } = new List<Venta>();
 }

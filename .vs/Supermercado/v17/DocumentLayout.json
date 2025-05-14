@@ -3,92 +3,28 @@
   "WorkspaceRootPath": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\mutations\\clientemutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:mutations\\clientemutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\mutations\\categoriamutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:mutations\\categoriamutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\mutations\\almacenmutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:mutations\\almacenmutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\mutations\\ventamutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:mutations\\ventamutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\mutations\\usuariomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:mutations\\usuariomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\mutations\\proveedormutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:mutations\\proveedormutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\mutations\\productomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:mutations\\productomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\mutations\\mutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:mutations\\mutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\models\\productoinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:models\\productoinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\mutations\\movimientoalmacenmutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:mutations\\movimientoalmacenmutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\mutations\\inventariomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:mutations\\inventariomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\mutations\\empleadomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:mutations\\empleadomutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\mutations\\detalleventamutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:mutations\\detalleventamutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\mutations\\detallecompramutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:mutations\\detallecompramutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\mutations\\compramutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:mutations\\compramutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\query\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:query\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\models\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:models\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|d:\\heber\\documents\\universidad\\semestre vii\\analisis\\supermercado\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8AA5CAA1-F9ED-4039-A881-F788745D7985}|Supermercado.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,219 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{99b8fa2f-ab90-4f57-9c32-949f146f1914}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProveedorMutation.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\ProveedorMutation.cs",
-              "RelativeDocumentMoniker": "Mutations\\ProveedorMutation.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\ProveedorMutation.cs",
-              "RelativeToolTip": "Mutations\\ProveedorMutation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T01:34:54.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsuarioMutation.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\UsuarioMutation.cs",
-              "RelativeDocumentMoniker": "Mutations\\UsuarioMutation.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\UsuarioMutation.cs",
-              "RelativeToolTip": "Mutations\\UsuarioMutation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T01:36:47.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VentaMutation.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\VentaMutation.cs",
-              "RelativeDocumentMoniker": "Mutations\\VentaMutation.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\VentaMutation.cs",
-              "RelativeToolTip": "Mutations\\VentaMutation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T01:36:51.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-09T02:23:34.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-09T01:54:53.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AlmacenMutation.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\AlmacenMutation.cs",
-              "RelativeDocumentMoniker": "Mutations\\AlmacenMutation.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\AlmacenMutation.cs",
-              "RelativeToolTip": "Mutations\\AlmacenMutation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T01:35:59.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoriaMutation.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\CategoriaMutation.cs",
-              "RelativeDocumentMoniker": "Mutations\\CategoriaMutation.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\CategoriaMutation.cs",
-              "RelativeToolTip": "Mutations\\CategoriaMutation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T01:36:11.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClienteMutation.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\ClienteMutation.cs",
-              "RelativeDocumentMoniker": "Mutations\\ClienteMutation.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\ClienteMutation.cs",
-              "RelativeToolTip": "Mutations\\ClienteMutation.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBYAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T23:40:24.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductoMutation.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\ProductoMutation.cs",
-              "RelativeDocumentMoniker": "Mutations\\ProductoMutation.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\ProductoMutation.cs",
-              "RelativeToolTip": "Mutations\\ProductoMutation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T01:36:42.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Mutation.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\Mutation.cs",
-              "RelativeDocumentMoniker": "Mutations\\Mutation.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\Mutation.cs",
-              "RelativeToolTip": "Mutations\\Mutation.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T23:40:42.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MovimientoAlmacenMutation.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\MovimientoAlmacenMutation.cs",
-              "RelativeDocumentMoniker": "Mutations\\MovimientoAlmacenMutation.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\MovimientoAlmacenMutation.cs",
-              "RelativeToolTip": "Mutations\\MovimientoAlmacenMutation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T01:35:35.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "InventarioMutation.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\InventarioMutation.cs",
-              "RelativeDocumentMoniker": "Mutations\\InventarioMutation.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\InventarioMutation.cs",
-              "RelativeToolTip": "Mutations\\InventarioMutation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T01:36:36.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EmpleadoMutation.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\EmpleadoMutation.cs",
-              "RelativeDocumentMoniker": "Mutations\\EmpleadoMutation.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\EmpleadoMutation.cs",
-              "RelativeToolTip": "Mutations\\EmpleadoMutation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T01:36:33.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DetalleVentaMutation.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\DetalleVentaMutation.cs",
-              "RelativeDocumentMoniker": "Mutations\\DetalleVentaMutation.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\DetalleVentaMutation.cs",
-              "RelativeToolTip": "Mutations\\DetalleVentaMutation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T01:35:26.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DetalleCompraMutation.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\DetalleCompraMutation.cs",
-              "RelativeDocumentMoniker": "Mutations\\DetalleCompraMutation.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\DetalleCompraMutation.cs",
-              "RelativeToolTip": "Mutations\\DetalleCompraMutation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T01:36:27.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CompraMutation.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\CompraMutation.cs",
-              "RelativeDocumentMoniker": "Mutations\\CompraMutation.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\CompraMutation.cs",
-              "RelativeToolTip": "Mutations\\CompraMutation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T01:36:24.612Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -326,76 +54,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "Models\\Categoria.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Models\\Categoria.cs",
-              "RelativeToolTip": "Models\\Categoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "CategoriaMutation.cs",
+              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\CategoriaMutation.cs",
+              "RelativeDocumentMoniker": "Mutations\\CategoriaMutation.cs",
+              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\CategoriaMutation.cs",
+              "RelativeToolTip": "Mutations\\CategoriaMutation.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowBwAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:36:37.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "Models\\AppDbContext.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAcwCkAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:13:58.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DetalleVenta.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Models\\DetalleVenta.cs",
-              "RelativeDocumentMoniker": "Models\\DetalleVenta.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Models\\DetalleVenta.cs",
-              "RelativeToolTip": "Models\\DetalleVenta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:11:56.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Venta.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Models\\Venta.cs",
-              "RelativeDocumentMoniker": "Models\\Venta.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Models\\Venta.cs",
-              "RelativeToolTip": "Models\\Venta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:11:15.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Query.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Query\\Query.cs",
-              "RelativeDocumentMoniker": "Query\\Query.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Query\\Query.cs",
-              "RelativeToolTip": "Query\\Query.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAIA2wB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:09:08.806Z",
+              "WhenOpened": "2025-05-14T01:43:13.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAASAAAA",
+              "DocumentIndex": 2,
+              "Title": "ProductoInput.cs",
+              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Models\\ProductoInput.cs",
+              "RelativeDocumentMoniker": "Models\\ProductoInput.cs",
+              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Models\\ProductoInput.cs",
+              "RelativeToolTip": "Models\\ProductoInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:05:38.171Z"
+              "WhenOpened": "2025-05-14T01:30:23.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\Producto.cs",
+              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Models\\Producto.cs",
+              "RelativeToolTip": "Models\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T01:19:20.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoMutation.cs",
+              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\ProductoMutation.cs",
+              "RelativeDocumentMoniker": "Mutations\\ProductoMutation.cs",
+              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Mutations\\ProductoMutation.cs",
+              "RelativeToolTip": "Mutations\\ProductoMutation.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T01:18:56.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "docker-compose.yaml",
+              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\docker-compose.yaml",
+              "RelativeDocumentMoniker": "docker-compose.yaml",
+              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\docker-compose.yaml",
+              "RelativeToolTip": "docker-compose.yaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-05-12T15:45:50.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\Heber\\Documents\\UNIVERSIDAD\\SEMESTRE VII\\Analisis\\Supermercado\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-12T15:45:20.329Z"
             }
           ]
         }

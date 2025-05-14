@@ -20,14 +20,14 @@ public partial class Producto
 
     [GraphQLName("imagen")]
     public string? ImagenBase64 => Imagen != null ? Convert.ToBase64String(Imagen) : null;
-
+    [GraphQLIgnore]
     public virtual ICollection<DetalleCompra?> DetalleCompras { get; set; } = new List<DetalleCompra?>();
-
+    [GraphQLIgnore]
     public virtual ICollection<DetalleVenta?> DetalleVenta { get; set; } = new List<DetalleVenta?>();
 
     public virtual Categoria? IdCategoriaNavigation { get; set; }
-
+    [GraphQLIgnore]
     public virtual ICollection<Inventario?> Inventarios { get; set; } = new List<Inventario?>();
-
+    [GraphQLIgnore]
     public virtual ICollection<MovimientosAlmacen?> MovimientosAlmacens { get; set; } = new List<MovimientosAlmacen?>();
 }

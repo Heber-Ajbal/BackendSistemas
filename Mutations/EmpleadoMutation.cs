@@ -35,10 +35,10 @@ namespace Supermercado.Mutations
 
 
         // Actualizar un empleado existente
-        public async Task<Empleado?> ActualizarEmpleado(int id, Empleado input)
+        public async Task<Empleado?> ActualizarEmpleado(Empleado input)
         {
             var context = _contextFactory.CreateDbContext();
-            var empleado = await context.Empleados.FindAsync(id);
+            var empleado = await context.Empleados.FindAsync(input.IdEmpleado);
             if (empleado == null) return null;
 
             empleado.Nombre = input.Nombre ?? empleado.Nombre;

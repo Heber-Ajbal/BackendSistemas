@@ -26,10 +26,10 @@ namespace Supermercado.Mutations
             return categoria;
         }
 
-        public async Task<Categoria?> ActualizarCategoria(int id, Categoria input)
+        public async Task<Categoria?> ActualizarCategoria(categoriaCInput input)
         {
             var context = _contextFactory.CreateDbContext();
-            var categoria = await context.Categoria.FindAsync(id);
+            var categoria = await context.Categoria.FindAsync(input.IdCategoria);
             if (categoria == null) return null;
 
             categoria.Nombre = input.Nombre;

@@ -40,16 +40,24 @@ namespace Supermercado.Mutations
 
 
         // Actualizar un producto existente
-        public async Task<Producto?> ActualizarProducto(int id, Producto input)
+        public async Task<Producto?> ActualizarProducto(ProductoCInput input)
         {
             var context = _contextFactory.CreateDbContext();
-            var producto = await context.Productos.FindAsync(id);
+            var producto = await context.Productos.FindAsync(input.IdProducto);
             if (producto == null) return null;
 
+            byte[]? imagenBytes = null;
+
+            if (!string.IsNullOrEmpty(input.Imagen))
+            {
+                imagenBytes = Convert.FromBase64String(input.Imagen);
+            }
+
             producto.Nombre = input.Nombre ?? producto.Nombre;
-            producto.PrecioCompra = input.PrecioCompra ?? producto.PrecioCompra;
-            producto.PrecioVenta = input.PrecioVenta ?? producto.PrecioVenta;
-            producto.IdCategoria = input.IdCategoria ?? producto.IdCategoria;
+            producto.PrecioCompra = input.PrecioCompra ;
+            producto.PrecioVenta = input.PrecioVenta;
+            producto.IdCategoria = input.IdCategoria;
+            producto.Imagen = imagenBytes;
 
             await context.SaveChangesAsync();
             return producto;

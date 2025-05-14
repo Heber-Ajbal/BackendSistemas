@@ -20,10 +20,10 @@ namespace Supermercado.Mutations
             return input;
         }
 
-        public async Task<Cliente?> ActualizarCliente(int id, Cliente input)
+        public async Task<Cliente?> ActualizarCliente(Cliente input)
         {
             var context = _contextFactory.CreateDbContext();
-            var cliente = await context.Clientes.FindAsync(id);
+            var cliente = await context.Clientes.FindAsync(input.IdCliente);
             if (cliente == null) return null;
 
             cliente.Nombre = input.Nombre;
